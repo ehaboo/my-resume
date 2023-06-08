@@ -1,0 +1,103 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.yellow-section {
+    background-color: #BBED2F;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 3% 10% 3%;
+    text-align: left;
+}
+
+.container {
+    padding: 7% 10% 7%;
+    text-align: center;
+}
+
+/* Headings  */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 2rem;
+    font-weight: 550;
+    line-height: 1.5;
+}
+
+/* Profile */
+
+.profile-img {
+    height: 65%;
+    right: 11.5%;
+}
+
+.main-img {
+    height: 50%;
+    top: 20%;
+    left: 7.5%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/* Buttons */
+
+.button-nav {
+    margin: 5% 3% 5% 0;
+}
+
+/* Skills section */
+
+.skills-text {
+    font-size: 2rem;
+}
+
+.skills-image {
+    width: 15%;
+    margin-left: 43%;
+    padding-bottom: 20px;
+}
+
+.skills-image:hover {
+    transform: scale(1.1);
+}
+
+/* footer section */
+
+.footer-icons {
+    padding: 15px;
+}
+
+.html-img, .CSS-img, .bootstrap-img {
+    width: 250px;
+}
+
+@media (max-width: 1228px) {
+    .main-img {
+        display: none;
+    }
+
+}
+
+
